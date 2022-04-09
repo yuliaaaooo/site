@@ -1,0 +1,124 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family:'Merriweather',serif;
+
+}
+
+h1{
+  margin-top:0;
+  width:auto;
+  margin:10px auto;
+  font-family:'Sacramento',cursive;
+  font-size:4.2rem;
+}
+
+h2{
+  font-family:'Montserrat',sans-serif;
+  margin-top:10px;
+  font-size:1.2rem;
+  font-weight:bold;
+}
+
+h3{
+  font-family:'Montserrat',sans-serif;
+}
+
+div{
+  background-color:#FAD9E6;
+}
+
+.top-container{
+  background-color:#FAD9E6;
+  position:relative;
+  padding-top:200px;
+  width:1440px;
+  height:600px;
+  color:#593234;
+
+}
+
+.middle-container{
+  background-color:#FAD9E6;
+  position:relative;
+  width:1440px;
+  height:600px;
+  color:#593234;
+
+}
+
+.bottom-container{
+  background-color:#FAD9E6;
+  position:relative;
+  width:1440px;
+  height:600px;
+  color:#593234;
+}
+
+.cloud1{
+  position:absolute;
+  top:23%;
+  right:9%;
+  animation:myAnimation 4s;
+  animation-iteration-count:infinite;
+}
+
+.cloud2{
+  position:absolute;
+  left:6%;
+  bottom:25%;
+  animation:myAnimation 4s;
+  animation-iteration-count:infinite;
+}
+
+.cloud3{
+  position:absolute;
+  top:8%;
+  left:23%;
+  animation:myAnimation 4s;
+  animation-iteration-count:infinite;
+}
+
+
+.work{
+  position:relative;
+  left:78px;
+}
+
+.plane{
+  position:relative;
+  top:100px
+}
+
+.pics{
+  width:100px;
+}
+
+
+.movement{
+  animation:myAnimation 4s;
+  animation-iteration-count:infinite;
+
+}
+
+@keyframes myAnimation{
+  from{
+    transform:translateX(0px);
+  }
+  20%{
+    transform:translateX(15px);
+  }
+  40%{
+    transform:translateX(30px);
+  }
+  60%{
+    transform:translateX(45px);
+  }
+  80%{
+    transform:translateX(60px);
+  }
+  to{
+    transform:translateX(75px);
+  }
+
+}
